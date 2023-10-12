@@ -8,4 +8,5 @@ kubectl create secret docker-registry regcred \
 --docker-username=<username> \
 --docker-password=<password> \
 --docker-email=<user@email.com>
+-n <k8s-namespace>
 ```
